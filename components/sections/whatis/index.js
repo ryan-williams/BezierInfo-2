@@ -127,7 +127,7 @@ var Whatis = React.createClass({
         <p>Bezier curves are the result of <a href="https://en.wikipedia.org/wiki/Linear_interpolation">linear
         interpolations</a>. That sounds complicated but you've been doing linear interpolation since you were
         very young: any time you had to point at something between two other things, you've been applying
-        linear interpolation. It's simply "picking a point between two, points".</p>
+        linear interpolation. It's simply "picking a point between two points".</p>
 
         <p>If we know the distance between those two points, and we want a new point that is, say, 20% the
         distance away from the first point (and thus 80% the distance away from the second point) then we
@@ -147,7 +147,7 @@ var Whatis = React.createClass({
 
         <p>So let's look at that in action: the following graphic is interactive in that you can use your
         '+' and '-' keys to increase or decrease the interpolation distance, to see what happens. We start
-        with three points, which gives us two lines. Linear interpolation over those lines gives use two
+        with three points, which gives us two lines. Linear interpolation over those lines gives us two
         points, between which we can again perform linear interpolation, yielding a single point. And that
         point —and all points we can form in this way for all distances taken together— form our Bézier curve:</p>
 
